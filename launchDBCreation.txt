@@ -1,0 +1,124 @@
+drop database if exists launchdb;
+create database launchdb;
+use launchdb;
+
+create table terminal(
+	id int NOT NULL AUTO_INCREMENT,
+	name varchar(100),
+	zip_code numeric(4,0) check (zip_code>0),
+	PRIMARY KEY (id)
+);
+
+create table route (
+	id int NOT NULL AUTO_INCREMENT,
+	FROM_T_ID int,
+	TO_T_ID int,
+
+	PRIMARY KEY (id),
+	FOREIGN KEY (FROM_T_ID) REFERENCES terminal (id),
+	FOREIGN KEY (TO_T_ID) REFERENCES terminal (id)
+);
+
+create table launch (
+	id int NOT NULL AUTO_INCREMENT,
+	name varchar(100),
+	arrTime varchar(20),
+	depTime varchar(20),
+	price varchar(20),
+	capacity numeric(6,0) check (capacity > 0 ),
+	PRIMARY KEY (id)
+);
+
+create table offdates(
+	offdate date,
+	L_ID int,
+	FOREIGN KEY (L_ID) REFERENCES launch(id)
+);
+
+create table launchroute(
+	L_ID int,
+	R_ID int,
+	PRIMARY  KEY (L_ID,R_ID),
+	FOREIGN KEY (L_ID) REFERENCES launch (id),
+	FOREIGN KEY (R_ID) REFERENCES route (id)
+);
+
+create table admin(
+	id int NOT NULL AUTO_INCREMENT,
+	name varchar(100),
+        username_a varchar(10),
+	password varchar(50),
+	mobile_no int(15),
+	email varchar(100),
+	L_ID int,
+	PRIMARY KEY (id),
+	FOREIGN KEY (L_ID) REFERENCES launch (id)
+);
+
+create table passenger(
+	id int NOT NULL AUTO_INCREMENT,
+	name varchar(100),
+        username_p varchar(10),
+        email varchar(50),
+	password varchar(50),
+	mobile_no int(15),
+	PRIMARY KEY (id)
+);
+
+
+create table cabin(
+	id int NOT NULL AUTO_INCREMENT,
+	type varchar(50),
+	ac_non varchar(10),
+	floor numeric(2,0) check (floor > 0),
+	cost numeric(6,2) check (cost > 0),
+	status varchar(10),
+	L_ID int,
+	PRIMARY KEY (id,L_ID),
+	FOREIGN KEY (L_ID) REFERENCES launch (id)
+);
+
+create table schedule(
+	sdate date,
+	announcement varchar (200),
+	weather_description varchar(50),
+	R_ID int, 
+	PRIMARY KEY (sdate,R_ID),
+	FOREIGN KEY (R_ID) REFERENCES route (id)
+);
+
+
+create table booking(
+	id int NOT NULL AUTO_INCREMENT,
+	bdate date,
+	P_ID int,
+	PRIMARY KEY (id),
+	FOREIGN KEY (P_ID) REFERENCES passenger (id)
+);
+
+create table booked(
+	B_ID int,
+	C_ID int,
+	PRIMARY KEY(B_ID,C_ID),
+	FOREIGN KEY (B_ID) REFERENCES booking (id),
+	FOREIGN KEY (C_ID) REFERENCES cabin (id)
+);
+
+create table weather (
+	wdate date,
+	temperature int,
+	humidity int,
+	wind int,
+	description varchar(200),
+	R_ID int,
+	PRIMARY KEY (wdate,R_ID),
+	FOREIGN KEY (R_ID) REFERENCES route(id)
+);
+
+create table notice(
+	id int NOT NULL AUTO_INCREMENT,
+	ndate date,
+	heading varchar(100),
+	body varchar(1000),
+	PRIMARY KEY (id)
+);

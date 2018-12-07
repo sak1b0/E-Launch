@@ -1,0 +1,815 @@
+insert into terminal (name,zip_code) values('Dhaka','1000');
+insert into terminal (name,zip_code) values('Barishal','8200');
+insert into terminal (name,zip_code) values('Bhola','8300');
+insert into terminal (name,zip_code) values('Chandpur','3600');
+insert into terminal (name,zip_code) values('Monpura','8360');
+
+
+insert into route (FROM_T_ID,TO_T_ID) values('1','2');
+insert into route (FROM_T_ID,TO_T_ID) values('2','1');
+insert into route (FROM_T_ID,TO_T_ID) values('1','3');
+insert into route (FROM_T_ID,TO_T_ID) values('3','1');
+insert into route (FROM_T_ID,TO_T_ID) values('1','4');
+insert into route (FROM_T_ID,TO_T_ID) values('4','1');
+insert into route (FROM_T_ID,TO_T_ID) values('1','5');
+insert into route (FROM_T_ID,TO_T_ID) values('5','1');
+
+
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Sundorbon','08:00 PM','04:00 AM','200-7000','1300');
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Kirtonkhol','08:30 PM','05:00 AM','200-6000','1100');
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Green Line','09:00 AM','02:00 PM','700-2000','400');
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Karnofuli','08:00 PM','06:00 AM','250-7000','1100');
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Bhola','07:30 PM','06:00 AM','200-5500','1100');
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Srinogor','08:00 PM','06:00 AM','200-6000','1050');
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Mitali','08:00 AM','12:00 PM','100-1500','400');
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Rofrof','02:00 PM','06:00 PM','100-1000','350');
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Bogdhadia','06:00 AM','10:00 AM','100-1200','350');
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Tasrif','06:00 PM','06:00 AM','200-6500','1200');
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Paravat','06:30 PM','07:00 AM','200-5500','1200');
+insert into launch (name,depTime,arrTime,price,capacity) values('M V Tipu','05:30 PM','06:00 AM','200-6000','1200');
+
+insert into offdates (offdate,L_ID) values('2018-09-01','1');
+insert into offdates (offdate,L_ID) values('2018-09-04','1');
+insert into offdates (offdate,L_ID) values('2018-09-07','1');
+insert into offdates (offdate,L_ID) values('2018-09-10','1');
+insert into offdates (offdate,L_ID) values('2018-09-13','1');
+insert into offdates (offdate,L_ID) values('2018-09-16','1');
+insert into offdates (offdate,L_ID) values('2018-09-19','1');
+insert into offdates (offdate,L_ID) values('2018-09-22','1');
+insert into offdates (offdate,L_ID) values('2018-09-25','1');
+insert into offdates (offdate,L_ID) values('2018-09-28','1');
+insert into offdates (offdate,L_ID) values('2018-09-31','1');
+
+insert into offdates (offdate,L_ID) values('2018-09-02','2');
+insert into offdates (offdate,L_ID) values('2018-09-05','2');
+insert into offdates (offdate,L_ID) values('2018-09-08','2');
+insert into offdates (offdate,L_ID) values('2018-09-11','2');
+insert into offdates (offdate,L_ID) values('2018-09-14','2');
+insert into offdates (offdate,L_ID) values('2018-09-17','2');
+insert into offdates (offdate,L_ID) values('2018-09-20','2');
+insert into offdates (offdate,L_ID) values('2018-09-23','2');
+insert into offdates (offdate,L_ID) values('2018-09-26','2');
+insert into offdates (offdate,L_ID) values('2018-09-29','2');
+
+insert into offdates (offdate,L_ID) values('2018-09-03','3');
+insert into offdates (offdate,L_ID) values('2018-09-06','3');
+insert into offdates (offdate,L_ID) values('2018-09-09','3');
+insert into offdates (offdate,L_ID) values('2018-09-12','3');
+insert into offdates (offdate,L_ID) values('2018-09-15','3');
+insert into offdates (offdate,L_ID) values('2018-09-18','3');
+insert into offdates (offdate,L_ID) values('2018-09-21','3');
+insert into offdates (offdate,L_ID) values('2018-09-24','3');
+insert into offdates (offdate,L_ID) values('2018-09-27','3');
+insert into offdates (offdate,L_ID) values('2018-09-30','3');
+
+insert into offdates (offdate,L_ID) values('2018-09-01','5');
+insert into offdates (offdate,L_ID) values('2018-09-04','5');
+insert into offdates (offdate,L_ID) values('2018-09-07','5');
+insert into offdates (offdate,L_ID) values('2018-09-10','5');
+insert into offdates (offdate,L_ID) values('2018-09-13','5');
+insert into offdates (offdate,L_ID) values('2018-09-16','5');
+insert into offdates (offdate,L_ID) values('2018-09-19','5');
+insert into offdates (offdate,L_ID) values('2018-09-22','5');
+insert into offdates (offdate,L_ID) values('2018-09-25','5');
+insert into offdates (offdate,L_ID) values('2018-09-28','5');
+insert into offdates (offdate,L_ID) values('2018-09-31','5');
+
+insert into offdates (offdate,L_ID) values('2018-09-02','4');
+insert into offdates (offdate,L_ID) values('2018-09-05','4');
+insert into offdates (offdate,L_ID) values('2018-09-08','4');
+insert into offdates (offdate,L_ID) values('2018-09-11','4');
+insert into offdates (offdate,L_ID) values('2018-09-14','4');
+insert into offdates (offdate,L_ID) values('2018-09-17','4');
+insert into offdates (offdate,L_ID) values('2018-09-20','4');
+insert into offdates (offdate,L_ID) values('2018-09-23','4');
+insert into offdates (offdate,L_ID) values('2018-09-26','4');
+insert into offdates (offdate,L_ID) values('2018-09-29','4');
+
+insert into offdates (offdate,L_ID) values('2018-09-03','6');
+insert into offdates (offdate,L_ID) values('2018-09-06','6');
+insert into offdates (offdate,L_ID) values('2018-09-09','6');
+insert into offdates (offdate,L_ID) values('2018-09-12','6');
+insert into offdates (offdate,L_ID) values('2018-09-15','6');
+insert into offdates (offdate,L_ID) values('2018-09-18','6');
+insert into offdates (offdate,L_ID) values('2018-09-21','6');
+insert into offdates (offdate,L_ID) values('2018-09-24','6');
+insert into offdates (offdate,L_ID) values('2018-09-27','6');
+insert into offdates (offdate,L_ID) values('2018-09-30','6');
+
+
+insert into offdates (offdate,L_ID) values('2018-09-01','7');
+insert into offdates (offdate,L_ID) values('2018-09-04','7');
+insert into offdates (offdate,L_ID) values('2018-09-07','7');
+insert into offdates (offdate,L_ID) values('2018-09-10','7');
+insert into offdates (offdate,L_ID) values('2018-09-13','7');
+insert into offdates (offdate,L_ID) values('2018-09-16','7');
+insert into offdates (offdate,L_ID) values('2018-09-19','7');
+insert into offdates (offdate,L_ID) values('2018-09-22','7');
+insert into offdates (offdate,L_ID) values('2018-09-25','7');
+insert into offdates (offdate,L_ID) values('2018-09-28','7');
+insert into offdates (offdate,L_ID) values('2018-09-31','7');
+
+insert into offdates (offdate,L_ID) values('2018-09-02','8');
+insert into offdates (offdate,L_ID) values('2018-09-05','8');
+insert into offdates (offdate,L_ID) values('2018-09-08','8');
+insert into offdates (offdate,L_ID) values('2018-09-11','8');
+insert into offdates (offdate,L_ID) values('2018-09-14','8');
+insert into offdates (offdate,L_ID) values('2018-09-17','8');
+insert into offdates (offdate,L_ID) values('2018-09-20','8');
+insert into offdates (offdate,L_ID) values('2018-09-23','8');
+insert into offdates (offdate,L_ID) values('2018-09-26','8');
+insert into offdates (offdate,L_ID) values('2018-09-29','8');
+
+insert into offdates (offdate,L_ID) values('2018-09-03','9');
+insert into offdates (offdate,L_ID) values('2018-09-06','9');
+insert into offdates (offdate,L_ID) values('2018-09-09','9');
+insert into offdates (offdate,L_ID) values('2018-09-12','9');
+insert into offdates (offdate,L_ID) values('2018-09-15','9');
+insert into offdates (offdate,L_ID) values('2018-09-18','9');
+insert into offdates (offdate,L_ID) values('2018-09-21','9');
+insert into offdates (offdate,L_ID) values('2018-09-24','9');
+insert into offdates (offdate,L_ID) values('2018-09-27','9');
+insert into offdates (offdate,L_ID) values('2018-09-30','9');
+
+
+insert into offdates (offdate,L_ID) values('2018-09-01','11');
+insert into offdates (offdate,L_ID) values('2018-09-04','11');
+insert into offdates (offdate,L_ID) values('2018-09-07','11');
+insert into offdates (offdate,L_ID) values('2018-09-10','11');
+insert into offdates (offdate,L_ID) values('2018-09-13','11');
+insert into offdates (offdate,L_ID) values('2018-09-16','11');
+insert into offdates (offdate,L_ID) values('2018-09-19','11');
+insert into offdates (offdate,L_ID) values('2018-09-22','11');
+insert into offdates (offdate,L_ID) values('2018-09-25','11');
+insert into offdates (offdate,L_ID) values('2018-09-28','11');
+insert into offdates (offdate,L_ID) values('2018-09-31','11');
+
+insert into offdates (offdate,L_ID) values('2018-09-02','12');
+insert into offdates (offdate,L_ID) values('2018-09-05','12');
+insert into offdates (offdate,L_ID) values('2018-09-08','12');
+insert into offdates (offdate,L_ID) values('2018-09-11','12');
+insert into offdates (offdate,L_ID) values('2018-09-14','12');
+insert into offdates (offdate,L_ID) values('2018-09-17','12');
+insert into offdates (offdate,L_ID) values('2018-09-20','12');
+insert into offdates (offdate,L_ID) values('2018-09-23','12');
+insert into offdates (offdate,L_ID) values('2018-09-26','12');
+insert into offdates (offdate,L_ID) values('2018-09-29','12');
+
+insert into offdates (offdate,L_ID) values('2018-09-03','10');
+insert into offdates (offdate,L_ID) values('2018-09-06','10');
+insert into offdates (offdate,L_ID) values('2018-09-09','10');
+insert into offdates (offdate,L_ID) values('2018-09-12','10');
+insert into offdates (offdate,L_ID) values('2018-09-15','10');
+insert into offdates (offdate,L_ID) values('2018-09-18','10');
+insert into offdates (offdate,L_ID) values('2018-09-21','10');
+insert into offdates (offdate,L_ID) values('2018-09-24','10');
+insert into offdates (offdate,L_ID) values('2018-09-27','10');
+insert into offdates (offdate,L_ID) values('2018-09-30','10');
+
+
+insert into launchroute (L_ID,R_ID) values ('1','1');
+insert into launchroute (L_ID,R_ID) values ('1','2');
+insert into launchroute (L_ID,R_ID) values ('2','1');
+insert into launchroute (L_ID,R_ID) values ('2','2');
+insert into launchroute (L_ID,R_ID) values ('3','1');
+insert into launchroute (L_ID,R_ID) values ('3','2');
+insert into launchroute (L_ID,R_ID) values ('4','3');
+insert into launchroute (L_ID,R_ID) values ('4','4');
+insert into launchroute (L_ID,R_ID) values ('5','3');
+insert into launchroute (L_ID,R_ID) values ('5','4');
+insert into launchroute (L_ID,R_ID) values ('6','3');
+insert into launchroute (L_ID,R_ID) values ('6','4');
+insert into launchroute (L_ID,R_ID) values ('7','5');
+insert into launchroute (L_ID,R_ID) values ('7','6');
+insert into launchroute (L_ID,R_ID) values ('8','5');
+insert into launchroute (L_ID,R_ID) values ('8','6');
+insert into launchroute (L_ID,R_ID) values ('9','5');
+insert into launchroute (L_ID,R_ID) values ('9','6');
+insert into launchroute (L_ID,R_ID) values ('10','7');
+insert into launchroute (L_ID,R_ID) values ('10','8');
+insert into launchroute (L_ID,R_ID) values ('11','7');
+insert into launchroute (L_ID,R_ID) values ('11','8');
+insert into launchroute (L_ID,R_ID) values ('12','7');
+insert into launchroute (L_ID,R_ID) values ('12','8');
+
+insert into admin (name,password,mobile_no,email,L_ID) values('M M Hasan Ovee','123abc','01622246008','hjhafjh@gmail.com','4');
+
+insert into passenger (name,username_p,email,password,mobile_no) values('Shahed','shahed123','shahed@gmail.com','111aaa','01715917130');
+insert into passenger (name,username_p,email,password,mobile_no) values('Saki','saki123','saki@gmail.com','222aaa','01123456789');
+insert into passenger (name,username_p,email,password,mobile_no) values('Ritu','rituritu','ritu@gmail.com','ritupurna','01987654321');
+insert into passenger (name,username_p,email,password,mobile_no) values('Ovee','shdd3','shdfxsx@gmail.com','11ggd','01713917130');
+insert into passenger (name,username_p,email,password,mobile_no) values('Riu','shdd3','shxd@gmail.com','1xfdd','01715977130');
+insert into passenger (name,username_p,email,password,mobile_no) values('Man','sh33','shdfdyd@gmail.com','11ddfdd','01719917130');
+insert into passenger (name,username_p,email,password,mobile_no) values('Kman','shx3','shdfdder@gmail.com','11dddd','01715937130');
+insert into passenger (name,username_p,email,password,mobile_no) values('Gman','sheg3','shdfddd@gmail.com','11dsd','01715914130');
+insert into passenger (name,username_p,email,password,mobile_no) values('Lol','sh3xx','shdfdd@gmail.com','11dad','01715917120');
+insert into passenger (name,username_p,email,password,mobile_no) values('Teger','shfs3','shdfudd@gmail.com','11ddh','01715957130');
+insert into passenger (name,username_p,email,password,mobile_no) values('Chunni','shj3','shdfwdd@gmail.com','11hdd','01766917130');
+insert into passenger (name,username_p,email,password,mobile_no) values('Lame','sh3y','shdfdqd@gmail.com','11dkd','01718817130');
+insert into passenger (name,username_p,email,password,mobile_no) values('EkaEka','sth3','shdfdyd@gmail.com','11ded','01719917130');
+
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','B','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','B','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','2','3000','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','1');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','1');
+
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','B','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','B','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','B','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','2');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','2');
+
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','B','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','2','3000','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','3');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','3');
+
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','2','3000','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','4');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','4');
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','2','3000','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','5');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','5');
+
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','2','3000','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','6');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','6');
+
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','1200','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','1000','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','1000','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','1000','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','2','1500','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','1500','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','1500','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','1500','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','700','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','700','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','700','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','500','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','500','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','500','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','500','N','7');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','500','N','7');
+
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','1200','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','1000','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','1000','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','1000','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','2','1500','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','1500','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','1500','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','1500','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','800','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','800','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','800','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','500','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','500','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','500','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','500','N','8');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','500','N','8');
+
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','1200','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','1200','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','1000','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','1000','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','1000','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','2','1500','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','1500','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','1500','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','1500','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','900','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','900','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','900','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','500','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','500','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','500','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','500','N','9');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','500','N','9');
+
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','2','3000','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1000','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','10');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1000','N','10');
+
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','2','3000','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1100','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1100','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1100','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1100','N','11');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1100','N','11');
+
+
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','3','2300','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','AC','2','2300','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('double','NON','3','2000','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','2','3000','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('VIP','AC','3','3000','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','2','1200','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','AC','3','1200','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1200','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','2','1200','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1200','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1200','N','12');
+insert into cabin (type,ac_non,floor,cost,status,L_ID) values('single','NON','3','1200','N','12');
+
+
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-01 ','OK','Rain','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-01 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-01 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-01 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-01 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-01 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-01 ','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-01 ','OK','Rain','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-02 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-02 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-02 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-02 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-02 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-02 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-02 ','OK','Rain','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-02 ','OK','Rain','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-03 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-03 ','OK','Clear','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-03 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-03 ','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-03 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-03 ','OK','Clear','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-03 ','OK','Rain','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-03 ','OK','Rain','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-04 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-04 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-04 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-04 ','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-04 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-04 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-04 ','OK','Rain','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-04 ','OK','Rain','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-05 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-05 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-05 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-05 ','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-05 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-05 ','OK','Clear','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-05 ','OK','Rain','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-05 ','OK','Clear','8');
+
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-06 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-06 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-06 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-06 ','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-06 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-06 ','OK','Clear','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-06 ','OK','Rain','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-06 ','OK','Rain','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-07 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-07 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-07 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-07 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-07 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-07 ','OK','Clear','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-07 ','OK','Rain','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-07 ','OK','Rain','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-08 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-08 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-08 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-08 ','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-08 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-08 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-08 ','OK','Rain','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-08 ','OK','Rain','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-09 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-09 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-09 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-09 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-09 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-09 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-09 ','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-09 ','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-10 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-10 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-10 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-10 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-10 ','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-10 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-10 ','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-10 ','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-11 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-11 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-11 ','OK','Clear','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-11 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-11 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-11 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-11 ','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-11 ','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-12 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-12 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-12 ','OK','Clear','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-12 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-12 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-12 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-12 ','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-12 ','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-13 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-13 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-13 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-13 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-13 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-13 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-13 ','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-13 ','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-14 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-14 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-14 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-14 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-14 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-14 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-14 ','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-14 ','OK','Clear','8');
+
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-15 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-15 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-15 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-15 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-15 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-15 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-15 ','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-15 ','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-16 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-16 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-16 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-16 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-16 ','OK','Rain','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-16 ','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-16 ','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-16 ','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-17 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-17 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-17 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-17 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-17 ','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-17 ','OK','Clear','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-17 ','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-17 ','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-18 ','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-18 ','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-18 ','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-18 ','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-18 ','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-18 ','OK','Clear','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-18 ','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-18 ','OK','Clear','8');
+
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-19','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-19','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-19','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-19','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-19','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-19','OK','Clear','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-19','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-19','OK','Clear','8');
+
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-20','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-20','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-20','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-20','OK','Clear','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-20','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-20','OK','Clear','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-20','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-20','OK','Clear','8');
+
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-21','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-21','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-21','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-21','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-21','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-21','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-21','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-21','OK','Rain','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-22','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-22','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-22','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-22','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-22','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-22','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-22','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-22','OK','Rain','8');
+
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-23','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-23','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-23','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-23','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-23','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-23','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-23','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-23','OK','Rain','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-24','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-24','OK','Clear','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-24','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-24','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-24','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-24','OK','Clear','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-24','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-24','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-25','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-25','OK','Clear','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-25','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-25','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-25','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-25','OK','Clear','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-25','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-25','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-26','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-26','OK','Clear','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-26','OK','Rain','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-26','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-26','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-26','OK','Clear','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-26','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-26','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-27','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-27','OK','Clear','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-27','OK','Clear','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-27','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-27','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-27','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-27','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-27','OK','Rain','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-28','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-28','OK','Clear','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-28','OK','Clear','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-28','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-28','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-28','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-28','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-28','OK','Rain','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-29','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-29','OK','Clear','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-29','OK','Clear','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-29','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-29','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-29','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-29','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-29','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-30','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-30','OK','Clear','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-30','OK','Clear','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-30','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-30','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-30','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-30','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-30','OK','Clear','8');
+
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-31','OK','Clear','1');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-31','OK','Rain','2');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-31','OK','Clear','3');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-31','OK','Rain','4');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-31','OK','Clear','5');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-31','OK','Rain','6');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-31','OK','Clear','7');
+insert into schedule (sdate,announcement,weather_description,R_ID) values('2018-09-31','OK','Rain','8');
+
+
+
+
+
+insert into booking (bdate,P_ID) values('2018-04-30','2');
+insert into booking (bdate,P_ID) values('2018-02-30','1');
+insert into booking (bdate,P_ID) values('2014-04-30','3');
+insert into booking (bdate,P_ID) values('2017-04-30','4');
+insert into booking (bdate,P_ID) values('2013-04-30','5');
+insert into booking (bdate,P_ID) values('2015-04-30','6');
+
+insert into booked (B_ID,C_ID) values('1','5');
+insert into booked (B_ID,C_ID) values('2','25');
+insert into booked (B_ID,C_ID) values('3','30');
+insert into booked (B_ID,C_ID) values('4','40');
+insert into booked (B_ID,C_ID) values('5','9');
+insert into booked (B_ID,C_ID) values('6','55');
+
+insert into admin(name,username_a,password,mobile_no,email,L_ID) values ('Ovee','ov','gg',01992795827,'me.ovee@gmail.com',1);
